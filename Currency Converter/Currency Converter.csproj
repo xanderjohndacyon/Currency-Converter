@@ -38,6 +38,7 @@
     <None Include="web.Release.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
+    <None Include="XJDCurrencyConverter - Web Deploy.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="css\" />
