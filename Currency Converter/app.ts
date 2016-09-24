@@ -21,6 +21,9 @@
         var fromAmountValue: number;
         var convertedCurrency: number;
         var fromAmount = (<HTMLInputElement>document.getElementById("Amount")).value
+        var numberFromAmount: number;
+
+        numberFromAmount = parseInt(fromAmount);
 
         if (fromAmount.length == 0) {
             window.alert("Amount is Required!");

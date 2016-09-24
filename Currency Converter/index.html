@@ -30,15 +30,8 @@
             <p>My first website using TypeScript and Bootstrap, and it's awesome!</p>
         </div>
         <div class="row">
-            <div class="col-xs-2">Convert FROM:</div>
-            <div class="col-xs-2">Value:</div>
-            <div class="col-xs-2">Convert TO:</div>
-            <div class="col-xs-2"></div>
-            <div class="col-xs-2"></div>
-            <div class="col-xs-2"></div>
-        </div>
-        <div class="row">
-            <div class="col-xs-2">
+            <div class="col-sm-2">
+                Convert FROM:
                 <select class="form-control" id="FromCurrency" name="D1">
                     <option>AUD</option>
                     <option>BGN</option>
@@ -74,8 +67,9 @@
                     <option>ZAR</option>
                 </select>
             </div>
-            <div class="col-xs-2"><input class="form-control" id="Amount" type="text" /></div>
-            <div class="col-xs-2">
+            <div class="col-sm-2">Value: <input class="form-control" id="Amount" type="text" /></div>
+            <div class="col-sm-2">
+                Convert TO:
                 <select class="form-control" id="ToCurrency" name="D2">
                     <option>AUD</option>
                     <option>BGN</option>
@@ -111,22 +105,21 @@
                     <option>ZAR</option>
                 </select>
             </div>
-            <div class="col-xs-2"></div>
-            <div class="col-xs-2"></div>
-            <div class="col-xs-2"></div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
         </div>
         <div class="row">
-            <div class="col-xs-12">-</div>
+            <div class="col-sm-12">-</div>
         </div>
         <div class="row">
-            <div class="col-xs-3"><input id="Convert" type="button" class="btn btn-primary" value="Convert" /></div><div class="col-xs-1"></div>
-            <div class="col-xs-9"></div>
+            <div class="col-sm-12"><input id="Convert" type="button" class="btn btn-primary" value="Convert" /></div>
         </div>
         <div class="row">
-            <div class="col-xs-12">-</div>
+            <div class="col-sm-12">-</div>
         </div>
         <div class="fb-like" data-href="http://xjdcurrencyconverter.azurewebsites.net" data-layout="box_count" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
-        
+
         <div class="fb-comments" data-width="100%" data-href="http://xjdcurrencyconverter.azurewebsites.net/" data-numposts="5"></div>
     </div>
 </body>

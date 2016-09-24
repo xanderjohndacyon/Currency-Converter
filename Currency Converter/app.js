@@ -19,6 +19,8 @@ window.onload = function () {
         var fromAmountValue;
         var convertedCurrency;
         var fromAmount = document.getElementById("Amount").value;
+        var numberFromAmount;
+        numberFromAmount = parseInt(fromAmount);
         if (fromAmount.length == 0) {
             window.alert("Amount is Required!");
         }
